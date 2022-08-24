@@ -1,0 +1,33 @@
+@media(max-width: 565px) {
+
+    #perfume-card .perfume-container {
+        max-width: 343px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .perfume-container .perfume-img .img-desktop {
+        display: none;
+    }
+
+    .perfume-container .perfume-img .img-mobile {
+        display: block;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .perfume-container .perfume-img {
+        width: 100%;
+        height: auto;
+    }
+    .perfume-container .perfume-info {
+        width: 100%;
+        height: auto;
+        
+     }
+}
+
+    
+    

@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap'); /*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap'); /*font-family: 'Montserrat', sans-serif;*/
+
+
+.s-serif {
+    font-family: 'Montserrat', sans-serif;
+}
+.serif {
+    font-family: 'Fraunces', serif;
+}
+
+.mt {
+    margin-top: 1.5rem ;
+}
+
+/*PERFUME*/
+
+#perfume-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+#perfume-card .perfume-container {
+    display: flex;
+    width: 600px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+.perfume-container .perfume-img {
+    width: 50%;
+    height: 100%;
+}
+
+.perfume-container .perfume-img .img-desktop {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+
+.perfume-container .perfume-img .img-mobile {
+    display: none;
+}
+
+
+.perfume-container .perfume-info {
+   width: 50%;
+   height: 100%;
+   padding: 2rem;
+}
+
+.perfume-info .info-title p {
+    font-size: 0.9rem;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%)
+}
+
+.perfume-info .info-title h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    letter-spacing: -1px;
+    line-height: 0.9;
+    
+}
+
+.perfume-info .info-main p{
+    font-size: 0.9rem;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+}
+
+.perfume-info .info-cost {
+    display: flex;
+    align-items: center;
+
+}
+
+.perfume-info .info-cost .cost-left {
+    color: hsl(158, 36%, 37%);
+    font-size: 2.2rem;
+    font-weight: bold;
+    
+}
+
+.perfume-info .info-cost .cost-right {
+    color: hsl(228, 12%, 48%);
+    margin-left: 1rem;
+    text-decoration: line-through;
+} 
+
+.btn {
+    padding: 1rem;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+    border:none;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: hsl(158, 37%, 29%);
+    
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn i {
+    margin-right: 0.8rem;
+}
+
+
+
+
