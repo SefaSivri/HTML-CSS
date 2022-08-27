@@ -1,0 +1,36 @@
+@media (max-width:720px) {
+    #preview-card {
+        padding-top: 1rem;
+    }
+    
+    .container {
+        flex-direction: column;
+        width: 375px;
+        max-height: 100vh;
+        height: auto;
+
+    }
+    .container .box {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    .btn {
+        margin-top: 1.5rem;
+    }
+    .container .box-1 {
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0.5rem;
+    }
+    .container .box-3 {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+}

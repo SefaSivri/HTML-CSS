@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    Font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+a {
+    text-decoration: none;
+}
+
+#preview-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#preview-card .container {
+    max-width: 1000px;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    margin: 1.5rem;
+}
+
+.container .box {
+    width: 33%;
+    height: auto;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .box-1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.container .box-2 {
+    background-color: hsl(184, 100%, 22%);
+    width: 34%;
+}
+
+.container .box-3 {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.container .info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.container .info h1 {
+    font-size: 2.3rem;
+    text-transform: uppercase   ;
+}
+
+.container .info p {
+    line-height: 1.5rem;
+}
+
+.btn {
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.7rem;
+    border-radius: 3rem;
+    display: block;
+    min-width: 111px;
+    width: 60%;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.btn:hover {
+    color:hsl(0, 0%, 95%) ;
+}
+
+.btn-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-2 {
+    color:hsl(184, 100%, 22%) ;
+}
+
+.btn-3 {
+    color:hsl(179, 100%, 13%) ;
+}
+
+.btn-1:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.btn-2:hover {
+    background-color:hsl(184, 100%, 22%) ;
+}
+
+.btn-3:hover {
+    background-color:hsl(179, 100%, 13%) ;
+}
